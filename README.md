@@ -27,26 +27,6 @@ A peaceful, private emotional self-reflection companion powered by React and n8n
 - Node.js 18+ 
 - npm or yarn
 
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Shadownix-R/MindMirrorAI.git
-cd MindMirrorAI
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:5173](http://localhost:5173) in your browser
-
 ### Build for Production
 
 ```bash
