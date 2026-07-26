@@ -87,8 +87,6 @@ export default function App() {
       <Navbar
         darkMode={darkMode}
         setDarkMode={setDarkMode}
-        webhookUrl={webhookUrl}
-        setWebhookUrl={setWebhookUrl}
       />
 
       {/* Hero Section */}
