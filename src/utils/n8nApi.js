@@ -101,15 +101,11 @@ export const submitToN8nWebhook = async (formData, webhookUrl = 'https://rushil1
         if (response.ok) {
           webhookSuccess = true;
           console.log(`[n8n Dispatcher] SUCCESS (${response.status}) via ${item.label}`);
+          const rawText = await response.text();
           try {
-            const rawText = await response.text();
-            try {
-              webhookResponseData = JSON.parse(rawText);
-            } catch (jsonErr) {
-              webhookResponseData = { rawResponse: rawText };
-            }
-          } catch (e) {
-            webhookResponseData = null;
+            webhookResponseData = JSON.parse(rawText);
+          } catch {
+            webhookResponseData = { rawResponse: rawText };
           }
           break;
         } else {

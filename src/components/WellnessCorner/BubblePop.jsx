@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Sparkles, RefreshCw, XCircle } from 'lucide-react';
 import { soundEngine } from '../../utils/audioSynth';
 

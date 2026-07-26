@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import confetti from 'canvas-confetti';
 import { Download, MailCheck, RotateCcw, Sparkles, CheckCircle2, Quote, Flame, Zap, Moon, Heart, Shield, Award } from 'lucide-react';
 import { downloadWellnessReport } from '../utils/exportReport';
@@ -181,7 +181,7 @@ export default function ResultsReport({ report, userEmail, webhookUrl, n8nStatus
             <div className="p-5 rounded-2xl bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/70 dark:border-amber-900/40">
               <div className="flex items-center gap-2 text-xs font-bold text-amber-800 dark:text-amber-300 uppercase tracking-wider mb-2">
                 <Award className="w-4 h-4" />
-                <span>Today's Micro Challenge</span>
+                <span>Today&apos;s Micro Challenge</span>
               </div>
               <p className="text-sm font-medium text-slate-800 dark:text-slate-200">
                 {report.todaysChallenge}
@@ -194,7 +194,7 @@ export default function ResultsReport({ report, userEmail, webhookUrl, n8nStatus
                 <span>Daily Affirming Thought</span>
               </div>
               <p className="text-xs sm:text-sm font-medium italic text-slate-800 dark:text-slate-200 mb-1">
-                "{report.motivationalQuote?.text}"
+                &ldquo;{report.motivationalQuote?.text}&rdquo;
               </p>
               <p className="text-[11px] text-slate-500 dark:text-slate-400">
                 — {report.motivationalQuote?.author}

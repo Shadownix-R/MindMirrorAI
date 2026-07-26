@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Step1BasicInfo from './Step1BasicInfo';
 import Step2Feelings from './Step2Feelings';
 import Step3Lifestyle from './Step3Lifestyle';

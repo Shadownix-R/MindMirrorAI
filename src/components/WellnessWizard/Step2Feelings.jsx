@@ -1,4 +1,3 @@
-import React from 'react';
 import { Smile, Flame, Zap } from 'lucide-react';
 
 const MOODS = [

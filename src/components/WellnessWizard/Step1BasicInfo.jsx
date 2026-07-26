@@ -1,4 +1,3 @@
-import React from 'react';
 import { User, Briefcase } from 'lucide-react';
 
 const AGE_GROUPS = ['Teens (<18)', '18–24', '25–34', '35–49', '50+'];

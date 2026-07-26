@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Volume2, VolumeX, CloudRain, Trees, Waves } from 'lucide-react';
 import { soundEngine } from '../../utils/audioSynth';
 

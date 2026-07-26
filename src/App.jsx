@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import WizardContainer from './components/WellnessWizard/WizardContainer';
@@ -12,7 +12,7 @@ import NatureSounds from './components/WellnessCorner/NatureSounds';
 import Footer from './components/Footer';
 
 import { submitToN8nWebhook } from './utils/n8nApi';
-import { Heart, Sparkles } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);

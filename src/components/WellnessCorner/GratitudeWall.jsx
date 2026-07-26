@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Star, Plus, Sparkles } from 'lucide-react';
 
 const DEFAULT_STARS = [
@@ -70,7 +70,7 @@ export default function GratitudeWall() {
         {hoveredStar ? (
           <div className="absolute bottom-3 left-3 right-3 p-2.5 rounded-xl bg-slate-800/90 text-amber-200 text-xs backdrop-blur-md border border-amber-300/30 flex items-center gap-2 animate-fade-in shadow-xl">
             <Sparkles className="w-4 h-4 text-amber-300 shrink-0" />
-            <span className="truncate">"{hoveredStar.text}"</span>
+            <span className="truncate">&ldquo;{hoveredStar.text}&rdquo;</span>
           </div>
         ) : (
           <div className="absolute top-3 left-3 text-[10px] text-slate-400 font-medium">

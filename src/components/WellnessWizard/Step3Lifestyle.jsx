@@ -1,4 +1,3 @@
-import React from 'react';
 import { Moon, CheckSquare, Square } from 'lucide-react';
 
 const SLEEP_OPTIONS = [
@@ -68,7 +67,7 @@ export default function Step3Lifestyle({ data, updateData }) {
       {/* Habits Checkboxes */}
       <div>
         <label className="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-3">
-          Today's Positive Habits
+          Today&apos;s Positive Habits
         </label>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           {HABIT_OPTIONS.map((habit) => {

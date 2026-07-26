@@ -1,4 +1,3 @@
-import React from 'react';
 import { MessageSquareQuote, Mail, Lock, Sparkles } from 'lucide-react';
 
 export default function Step5Reflection({ data, updateData, onSubmit }) {
@@ -17,7 +16,7 @@ export default function Step5Reflection({ data, updateData, onSubmit }) {
       <div>
         <label className="flex items-center gap-2 text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">
           <MessageSquareQuote className="w-4 h-4 text-sage-500" />
-          <span>What's been occupying your mind lately?</span>
+          <span>What&apos;s been occupying your mind lately?</span>
         </label>
         <textarea
           rows="4"

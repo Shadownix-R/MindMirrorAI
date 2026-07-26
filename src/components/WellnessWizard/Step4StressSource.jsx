@@ -1,4 +1,3 @@
-import React from 'react';
 import { BookOpen, Briefcase, Users, Heart, DollarSign, Activity, Compass, HelpCircle } from 'lucide-react';
 
 const STRESS_SOURCES = [

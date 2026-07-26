@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Sparkles, Heart } from 'lucide-react';
 
 const AFFIRMATIONS = [
@@ -51,7 +51,7 @@ export default function AIProcessingModal() {
         {/* Dynamic Affirmation Card */}
         <div className="w-full min-h-[70px] p-4 rounded-2xl bg-white/70 dark:bg-slate-800/70 border border-slate-200/80 dark:border-slate-700/80 flex items-center justify-center transition-all duration-500">
           <p className="text-sm font-medium italic text-slate-700 dark:text-slate-200 transition-opacity duration-500 key={affirmationIndex}">
-            "{AFFIRMATIONS[affirmationIndex]}"
+            &ldquo;{AFFIRMATIONS[affirmationIndex]}&rdquo;
           </p>
         </div>
 

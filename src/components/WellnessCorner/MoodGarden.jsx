@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Sprout, Droplets, Sparkles } from 'lucide-react';
 
 export default function MoodGarden({ initialGrowth = 35 }) {

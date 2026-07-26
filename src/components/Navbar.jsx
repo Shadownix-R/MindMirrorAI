@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Sparkles, Moon, Sun, Settings, HeartHandshake, ShieldCheck, X } from 'lucide-react';
 
 export default function Navbar({ darkMode, setDarkMode, webhookUrl, setWebhookUrl }) {

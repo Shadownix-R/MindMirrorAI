@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowDown, Sparkles, Compass, ShieldCheck } from 'lucide-react';
+import { Sparkles, Compass } from 'lucide-react';
 
 export default function HeroSection({ onStartClick }) {
   return (

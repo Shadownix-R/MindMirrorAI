@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Play, Pause, Wind } from 'lucide-react';
 import { soundEngine } from '../../utils/audioSynth';
 

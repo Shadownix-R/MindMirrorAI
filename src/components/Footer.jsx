@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ShieldCheck, AlertTriangle, PhoneCall, Heart, ExternalLink, Sparkles } from 'lucide-react';
 
 export default function Footer() {
